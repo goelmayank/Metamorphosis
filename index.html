@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>Demo - How to create a parallax scrolling website</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+
+	<link rel="author" href="https://plus.google.com/u/0/109859280204979591787/about"/>
+
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/vendor/modernizr-2.7.1.min.js"></script>
+	<style type="text/css">
+		.back-link a {
+			color: #4ca340;
+			text-decoration: none; 
+			border-bottom: 1px #4ca340 solid;
+		}
+		.back-link a:hover,
+		.back-link a:focus {
+			color: #408536; 
+			text-decoration: none;
+			border-bottom: 1px #408536 solid;
+		}
+		h1 {
+			height: 100%;
+			/* The html and body elements cannot have any padding or margin. */
+			margin: 0;
+			font-size: 14px;
+			font-family: 'Open Sans', sans-serif;
+			color: #1c1d1e;
+			font-size: 32px;
+			margin-bottom: 3px;
+		}
+		h2 {
+			color: #1c1d1e;
+			font-family: 'Open Sans', sans-serif;
+			font-weight: normal;
+		}
+		.entry-header .inner {
+			text-align: left;
+			margin: 0 auto 20px auto;
+			width: 800px;
+		}
+		.entry-header { padding-top: 20px; background-color: #fff; width:100%; position: fixed; top: 0; left: 0; z-index: 999999}
+	</style>
+</head>
+<body class="loading">
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+            <![endif]-->
+
+
+
+            <main>
+
+            	<section id="slide-1" class="homeSlide">
+            		<div class="bcg" data-center="background-position: 50% 0px;" data-top-bottom="background-position: 50% -100px;" data-anchor-target="#slide-1">
+
+            		</div>
+            	</section>
+
+            	<section id="slide-2">
+            		<div class="bcg" data-0="background-color:rgb(1,27,59);" data-top="background-color:(0,0,0);"  data-anchor-target="#slide-2">
+            			<div class="hsContainer">
+            				<div class="hsContent">
+            					<div id="page2" class="page p2">
+            						.
+            						<div id="p2wrapper" class="p2wrapper">
+            							<div id="camera" class="camera navhover" >
+            								Camera
+            							</div>
+            							<div id="campic" class="campic">
+            								<img src="campic.png" alt="campic" />
+            							</div>
+            							<div id="camquotes" class="camquotes">
+            								Pick up a camera. Shoot something. No matter how small, no matter how cheesy, no matter whether your friends and your family star in it.
+            							</div>
+
+            						</div>
+            						<div id="navwrapper" class="navwrapper" style="margin: auto;width:700px;">
+            							<img id="arr2" src="arrb.png" style="position: absolute;margin:10px 0px 0px 100px;opacity:0.0;"/>
+            							<div id="nav2" class="nav nav2">
+            								Let's make a script !
+            							</div>
+            							<img id="arl2" src="arlb.png" style="position: absolute;margin:10px 0px 0px 565px;opacity:0.0"/>
+            						</div>
+            					</div>
+            					<div id="page3" class="page p3">
+            						.
+            						<div id="p3wrapper" class="p3wrapper">
+            							<div id="script" class="script navhover">
+            								Script
+            							</div>
+            							<div id="scrpic" class="scrpic">
+            								<img src="notepad.png" />
+            							</div>
+            							<div id="scrquotes" class="scrquotes">
+            								You need the simplest version of the idea-the one that will grow naturally in the subject's mind. Subtle art.
+            							</div>
+            						</div>
+            						<div id="navwrapper" class="navwrapper" style="margin: auto;width:500px;">
+            							<img id="arr3" src="arr_right.png" style="position: absolute;margin:10px 0px 0px 30px;opacity:0.0;"/>
+            							<div id="nav3" class="nav nav3">
+            								Proceed to Shoot !
+            							</div>
+            							<img id="arl3" src="arl.png" style="position: absolute;margin:10px 0px 0px 465px;opacity:0.0"/>
+            						</div>
+            					</div>
+            				</div>
+            			</div>
+            		</div>
+            	</section>
+
+            	<section id="slide-3" class="homeSlide">
+            		<div class="bcg" data-center="background-position: 0px 50%;" data-bottom-top="background-position: 0px 40%;" data-top-bottom="background-position: -40px 50%;" data-anchor-target="#slide-3">
+
+            			
+            			<div id="head5" class="head5" style="margin-top:50px;">
+            				Judges
+            				<div style="width:200px;font-size: 19px;float: right;margin-right: 90;">
+            					Follow Emotional Fulls
+            					<ul>
+            						<li style="float:left;"><a href="https://www.youtube.com/user/emotionalfullsvideos"><img id="ytlogo" src="img/youtube.png" style="width:50px;padding-left:10px;"></a></li>
+            						<li style="float:left;"><a href="https://www.facebook.com/EmotionalFulls"><img id="fblogo" src=" img/facebook.png" style="width:50px;padding-left:10px;"></a></li>
+            					</ul>
+            				</div>
+            			</div>
+            			<div id="content5" class="content5" style="font-size:19px;margin-top:0px;">
+            				<img id="emotionfullslogo" src="img/emotional%20Fulls%20logo.png" style="margin: auto;display: block;width:280px;">
+            				<p><img src="img/Sameer_Mishra.jpg" style="width:150px;float:left;padding:10px;border:solid 2px white;margin-right:20px;"/>Sameer Mishra, the co-founder of EmotionalFulls, is a graduate from IIT Bombay, class of 2011. He was the first one to start film making in IIT Bombay and was instrumental in setting up  Silverscreen, the film-making club of IIT Bombay. His Short Films have won several awards at national level and many of his plays have been performed across all the prestigious theatres of Mumbai. He has worked with an array of big names, brands and banners of the industry and has written and directed around 35 short films till date.
+            				</p>
+            				<p style="margin-top:20px;"><img src="img/gaganjeet_singh.jpg" style="width:150px;float:right;padding:10px;border:solid 2px white;margin-left:20px;"/>Gaganjeet Singh, a graduate from IIT Bombay,  is an actor, writer, director, casting director, production manager, light and sound engineer, editing supervisor and what not, at EmotionalFulls. An actor par excellence and a versatile writer, Gaganjeet Singh has performed and directed a number of stage plays, ranging from out and out comedies, to pure dramas and musicals. He has own many awards for his acting, scripting and direction during his college days and his short films and plays have won a lot of competitions in different college fests across the country.   
+            				</p>
+
+            			</div>
+            		</div>
+            	</section>
+
+            	<section id="slide-4" class="homeSlide homeSlideTall">
+            		<div class="bcg" data-center="background-position: 50% 0px;" data-bottom-top="background-position: 50% 100px;" data-top-bottom="background-position: 50% -100px;" data-anchor-target="#slide-4">
+
+            			<div id="head6" class="head6">
+            				Rules & Regulations
+            			</div>
+            			<div id="content6" class="content6">
+            				<ul>
+            					<li>The maximum duration for an entry is 5 minutes.</li>
+            					<li>The maximum number of members in a team is 5. (Excluding the cast)</li>
+            					<li>Each entry should bear a) an appropriate title b) the team name.</li>
+            					<li>A disclaimer bearing the following text : "This is an entry for Metamorphosis Oasis 2014.", the team name and title of the film must run for five seconds before the start of the video.</li>
+            					<li>The video should contain the name of all the team members in the final credits along with contact number and email id of the team leader. The credits section and the disclaimer will not be counted in the 5 minutes allotted for the film.</li>
+            					<li>All entries should be completely original and independently produced. Content and idea should be original. The participating teams themselves will be responsible for any third-party claim for copyright infringement.</li>
+            					<li>Entries must reflect your direction and editing skills, and should comprise of cinematography and editing only.</li>
+            					<li>Organizers solely reserve the right to screen the entry.</li>
+            					<li>Pornography, nudity and Excessive Violence are strictly prohibited and will lead to immediate disqualification.</li>
+            					<li>Decision of the judges shall be final.</li>
+            					<li>Keep checking the Facebook page for regular updates.</li>
+            				</ul></div>
+            				<img src="img/arr_down.png" style="margin:10px 0px 0px 650px;" id="down2" class="downarrow">
+            			</div>
+            		</div>
+            	</section>
+
+            	<section id="slide-5" class="homeSlide homeSlideTall2">
+            		<div class="bcg">
+            		</div>
+            		<div class="hsContainer">
+            			<div id="head7" class="head7">
+            				Participation
+            			</div>
+            			<div id="content7" class="content7">
+            				<div id="r1" class="r1">
+            					<img id="r1i" src="1r.png" style="height: 220px;display: none;" />
+            					<div id="r1c" class="r1c">
+            						1st Round :<br>
+            						<ul  style="font-size: 18px">
+            							<li>This is a screening round. Selected best entries will be short listed for further rounds.</li>
+            							<li>No specific theme is required.</li>
+            							<li>The name of the movie file should follow the format : "metam14_$team name$_$title of film$".</li>
+            							<li>Each entry must be sent along with an abstract not exceeding 100 words explaining the idea and the purpose of the film in .doc/.pdf file. The name of the .pdf/.doc file should also follow the above naming format.</li>
+            							<li>The teams are required to mail their entries to metamorphosis[at]bits-oasis.org before the first round deadline. Teams from BITS Pilani may directly submit the entries to the undersigned.</li>
+            							<li>After the qualified teams have submitted their video for the final round on the deadline day, they would be forwarded a questionnaire regarding their film which they must send back in 48 hours of receipt.</li>
+            							<li>Videos shot using Digicams/Handycams/Mobile Phones are ALLOWED.</li>
+            							<li>Last date for submitting first round entries of Metamorphosis is <b> 23:59 20th Oct, 2014.<b></li>
+            							<li>Please read the Rules and Regulations Section.</li>
+            							<li>All teams must make sure that all team members are registered on the Oasis Registration Portal. Those who are NOT REGISTERED will not be registered.</li>
+            						</ul>
+            					</div>
+            				</div>
+            				<div id="r2" class="r2">
+            					<img id="r2i" src="2r.png" style="height: 220px;"  />
+            					<div id="r2c" class="r2c">
+            						2nd Round :<br />
+            						<ul>
+            							<li>This will be a themed round.</li>
+            							<li>The theme will be announced a few days after the preliminary round.</li>
+            							<li>Only those teams that are declared qualified will be eligible to participate in this round.</li>
+            							<li>This final round will be an on-campus round. All teams are required to be present on campus , and submit their video entries to the undersigned. In special cases , the teams have the option of choosing a representative on campus to represent their team.</li>
+            							<li>This round will include the screening of the videos for a panel of judges , followed by a question-answer session with individual teams. The teams may be judged on the basis of their performance in this session.</li>
+            							<li>Videos shot using Digicams/Handy cams/Mobile Phones are ALLOWED.</li>
+            							<li>Do look out for further notice regarding the deadline for the final round.</li>
+            							<li>Please read the Rules and Regulations Section.</li>
+            						</ul>
+            					</div>
+            				</div>
+
+            			</div>
+            		</div>
+            		<div class="bcg bcg3" data-300-bottom="opacity: 0;" data-100-bottom="opacity: 1;" data-anchor-target="#slide-5">
+            			<div id="head8" class="head8">
+            				Contact Us
+            			</div>
+            			<div id="content8" class="content8">
+            				Mail your entries to <a href="mailto:metamorphosis@bits-oasis.org">metamorphosis@bits-oasis.org</a><br><br>
+            				For more details, contact:<br>
+            				<br>
+            				<span style="font-size: 25px;">MUKUL GUPTA</span><br>
+            				<table>
+            					<tr>
+            						<td style="width:40px;height: 30px;"><img src="img/mail.png" style="height:20px;"></td>
+            						<td style="width:40px;height: 30px;">guptamukul65@gmail.com</td>
+            					</tr><tr>
+            					<td style="width:40px;height: 30px;"><img src="img/phone.png" style="height:30px;"></td>
+            					<td style="width:40px;height: 30px;">+91-9529728390</td>
+            				</tr>
+            			</table>
+
+            		</div>
+
+
+            	</div>
+            </section>
+
+        </main>
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+        <script src="js/imagesloaded.js"></script>
+        <script src="js/skrollr.js"></script>
+        <script src="js/_main.js"></script>
+
+    </body>
+    </html>
